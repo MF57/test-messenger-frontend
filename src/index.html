@@ -46,6 +46,9 @@
       },
       function error(err){
         // error
+        let thread = document.getElementById("thread");
+        console.log(err);
+        thread.innerText = JSON.stringify(err);
       }
     );
 
