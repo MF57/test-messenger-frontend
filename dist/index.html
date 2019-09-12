@@ -48,6 +48,8 @@
         // error
         let thread = document.getElementById("thread");
         alert(err);
+        console.log(err);
+        console.log(JSON.stringify(err));
         thread.innerText = JSON.stringify(err);
       }
     );
